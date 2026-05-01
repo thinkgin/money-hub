@@ -10,10 +10,10 @@
 
 <body>
 
-  <nav class="nav">
+  <nav class="nav" aria-label="主导航">
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo">💰 赚钱知识库</a>
-      <button class="menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+      <a href="index.html" class="nav-logo">赚钱知识库</a>
+      <button class="menu-btn" type="button" aria-label="打开导航菜单" aria-expanded="false">☰</button>
       <div class="nav-links">
         <a href="index.html">首页</a>
         <a href="projects.html">赚钱项目</a>
@@ -25,7 +25,7 @@
   </nav>
 
   <section class="hero">
-    <h1>💰 程序员合法赚钱路子大全</h1>
+    <h1>程序员合法赚钱路子大全</h1>
     <p>整合 GitHub 20+ 个热门仓库（100k+ Stars），系统梳理程序员合法赚钱的 50+ 种方式</p>
     <div class="stats">
       <div class="stat">
@@ -73,15 +73,15 @@
       <!-- 1 -->
       <section class="section reveal" id="s1">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(99,102,241,0.2),rgba(139,92,246,0.2))">📋</span> 一、接单 / 外包 /
+           >📋</span> 一、接单 / 外包 /
           私活</h2>
-        <h3 style="font-size:1rem;margin:0 0 .75rem">适合做什么？</h3>
+        <h3>适合做什么？</h3>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>类型</th>
-                <th>参考收入</th>
+                <th scope="col">类型</th>
+                <th scope="col">参考收入</th>
               </tr>
             </thead>
             <tbody>
@@ -112,7 +112,7 @@
             </tbody>
           </table>
         </div>
-        <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">国内 & 海外接单平台</h3>
+        <h3>国内 &amp; 海外接单平台</h3>
         <div class="cards cards-2">
           <div class="card">
             <div class="card-title">🇨🇳 国内平台</div>
@@ -143,7 +143,7 @@
       <!-- 2 -->
       <section class="section reveal" id="s2">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(34,197,94,0.2),rgba(6,182,212,0.2))">🏠</span> 二、自由职业 / 远程全职
+           >🏠</span> 二、自由职业 / 远程全职
         </h2>
         <div class="cards cards-2">
           <div class="card">
@@ -165,14 +165,14 @@
             </div>
           </div>
         </div>
-        <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">收入参考</h3>
+        <h3>收入参考</h3>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>级别</th>
-                <th>国内时薪</th>
-                <th>海外时薪</th>
+                <th scope="col">级别</th>
+                <th scope="col">国内时薪</th>
+                <th scope="col">海外时薪</th>
               </tr>
             </thead>
             <tbody>
@@ -204,15 +204,15 @@
       <!-- 3 -->
       <section class="section reveal" id="s3">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(139,92,246,0.2),rgba(236,72,153,0.2))">🛠️</span> 三、独立开发产品
+           >🛠️</span> 三、独立开发产品
         </h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>产品类型</th>
-                <th>变现方式</th>
-                <th>开发周期</th>
+                <th scope="col">产品类型</th>
+                <th scope="col">变现方式</th>
+                <th scope="col">开发周期</th>
               </tr>
             </thead>
             <tbody>
@@ -257,17 +257,17 @@
       <!-- 4 -->
       <section class="section reveal" id="s4">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(236,72,153,0.2),rgba(249,115,22,0.2))">💎</span> 四、SaaS 创业
+           >💎</span> 四、SaaS 创业
         </h2>
         <div class="flow">发现痛点 → MVP 开发 (2-4周) → 早期用户 (免费) → 收费 → 增长 → 规模化</div>
         <div class="table-wrap mt-2">
           <table>
             <thead>
               <tr>
-                <th>类型</th>
-                <th>示例</th>
-                <th>门槛</th>
-                <th>天花板</th>
+                <th scope="col">类型</th>
+                <th scope="col">示例</th>
+                <th scope="col">门槛</th>
+                <th scope="col">天花板</th>
               </tr>
             </thead>
             <tbody>
@@ -308,8 +308,8 @@
           <table>
             <thead>
               <tr>
-                <th>定价策略</th>
-                <th>说明</th>
+                <th scope="col">定价策略</th>
+                <th scope="col">说明</th>
               </tr>
             </thead>
             <tbody>
@@ -337,16 +337,16 @@
       <!-- 5 -->
       <section class="section reveal" id="s5">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(34,197,94,0.2),rgba(234,179,8,0.2))">🔓</span> 五、开源项目变现 — 18
+           >🔓</span> 五、开源项目变现 — 18
           种方式</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>#</th>
-                <th>方式</th>
-                <th>难度</th>
-                <th>收入潜力</th>
+                <th scope="col">#</th>
+                <th scope="col">方式</th>
+                <th scope="col">难度</th>
+                <th scope="col">收入潜力</th>
               </tr>
             </thead>
             <tbody>
@@ -423,9 +423,9 @@
       <!-- 6 -->
       <section class="section reveal" id="s6">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(6,182,212,0.2),rgba(59,130,246,0.2))">✍️</span> 六、技术写作 / 付费专栏
+           >✍️</span> 六、技术写作 / 付费专栏
         </h2>
-        <p class="text-sm mb-2" style="color:var(--text-muted)"><strong style="color:var(--color-yellow)">一个爆款专栏收益 200
+        <p class="text-sm mb-2"><strong>一个爆款专栏收益 200
             万+！</strong>
         </p>
         <div class="cards cards-2">
@@ -450,8 +450,8 @@
           <table>
             <thead>
               <tr>
-                <th>方式</th>
-                <th>月收入参考</th>
+                <th scope="col">方式</th>
+                <th scope="col">月收入参考</th>
               </tr>
             </thead>
             <tbody>
@@ -479,7 +479,7 @@
       <!-- 7 -->
       <section class="section reveal" id="s7">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(249,115,22,0.2),rgba(234,179,8,0.2))">🎓</span> 七、技术教学 / 录课卖课
+           >🎓</span> 七、技术教学 / 录课卖课
         </h2>
         <div class="cards cards-2">
           <div class="card">
@@ -503,15 +503,15 @@
       <!-- 8 -->
       <section class="section reveal" id="s8">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(139,92,246,0.2),rgba(99,102,241,0.2))">📱</span> 八、博客 / 自媒体
+           >📱</span> 八、博客 / 自媒体
         </h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>模式</th>
-                <th>说明</th>
-                <th>月收入</th>
+                <th scope="col">模式</th>
+                <th scope="col">说明</th>
+                <th scope="col">月收入</th>
               </tr>
             </thead>
             <tbody>
@@ -549,15 +549,15 @@
       <!-- 9 -->
       <section class="section reveal" id="s9">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(236,72,153,0.2),rgba(139,92,246,0.2))">🎨</span> 九、卖模板 / 主题 /
+           >🎨</span> 九、卖模板 / 主题 /
           插件</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>产品</th>
-                <th>平台</th>
-                <th>单价</th>
+                <th scope="col">产品</th>
+                <th scope="col">平台</th>
+                <th scope="col">单价</th>
               </tr>
             </thead>
             <tbody>
@@ -594,7 +594,7 @@
             </tbody>
           </table>
         </div>
-        <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">销售平台</h3>
+        <h3>销售平台</h3>
         <div class="cards cards-3">
           <div class="card">
             <div class="card-title"><a href="https://gumroad.com/" target="_blank">Gumroad</a></div>
@@ -626,7 +626,7 @@
       <!-- 10 -->
       <section class="section reveal" id="s10">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(6,182,212,0.2),rgba(99,102,241,0.2))">🧩</span> 十、Chrome 扩展
+           >🧩</span> 十、Chrome 扩展
         </h2>
         <div class="cards cards-2">
           <div class="card">
@@ -643,14 +643,14 @@
       <!-- 11 -->
       <section class="section reveal" id="s11">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(34,197,94,0.2),rgba(6,182,212,0.2))">🔌</span> 十一、API 服务</h2>
+           >🔌</span> 十一、API 服务</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>方向</th>
-                <th>说明</th>
-                <th>定价参考</th>
+                <th scope="col">方向</th>
+                <th scope="col">说明</th>
+                <th scope="col">定价参考</th>
               </tr>
             </thead>
             <tbody>
@@ -677,7 +677,7 @@
             </tbody>
           </table>
         </div>
-        <p class="text-sm mt-1" style="color:var(--text-muted)">API 市场：<a href="https://rapidapi.com/"
+        <p class="text-sm mt-1">API 市场：<a href="https://rapidapi.com/"
             target="_blank">RapidAPI</a> · <a href="https://aws.amazon.com/marketplace" target="_blank">AWS
             Marketplace</a> · <a href="https://apilayer.com/" target="_blank">API Layer</a></p>
       </section>
@@ -685,14 +685,14 @@
       <!-- 12 -->
       <section class="section reveal" id="s12">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(249,115,22,0.2),rgba(234,179,8,0.2))">🤝</span> 十二、技术咨询</h2>
+           >🤝</span> 十二、技术咨询</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>方向</th>
-                <th>客户</th>
-                <th>时薪</th>
+                <th scope="col">方向</th>
+                <th scope="col">客户</th>
+                <th scope="col">时薪</th>
               </tr>
             </thead>
             <tbody>
@@ -719,7 +719,7 @@
             </tbody>
           </table>
         </div>
-        <p class="text-sm mt-1" style="color:var(--text-muted)">平台：<a href="https://clarity.fm/"
+        <p class="text-sm mt-1">平台：<a href="https://clarity.fm/"
             target="_blank">Clarity.fm</a> · <a href="https://glginsights.com/" target="_blank">GLG ($200+/h)</a> · <a
             href="https://www.zaih.com/" target="_blank">在行</a> · <a href="https://www.codementor.io"
             target="_blank">CodeMentor</a></p>
@@ -728,13 +728,13 @@
       <!-- 13 -->
       <section class="section reveal" id="s13">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(239,68,68,0.2),rgba(249,115,22,0.2))">🐛</span> 十三、Bug 赏金</h2>
+           >🐛</span> 十三、Bug 赏金</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>平台</th>
-                <th>赏金范围</th>
+                <th scope="col">平台</th>
+                <th scope="col">赏金范围</th>
               </tr>
             </thead>
             <tbody>
@@ -766,14 +766,14 @@
       <!-- 14 -->
       <section class="section reveal" id="s14">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(99,102,241,0.2),rgba(6,182,212,0.2))">🏆</span> 十四、编程竞赛</h2>
+           >🏆</span> 十四、编程竞赛</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>平台</th>
-                <th>奖金</th>
-                <th>类型</th>
+                <th scope="col">平台</th>
+                <th scope="col">奖金</th>
+                <th scope="col">类型</th>
               </tr>
             </thead>
             <tbody>
@@ -806,15 +806,15 @@
       <!-- 15 -->
       <section class="section reveal" id="s15">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(139,92,246,0.2),rgba(236,72,153,0.2))">🤖</span> 十五、AI 相关赚钱
+           >🤖</span> 十五、AI 相关赚钱
         </h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>方向</th>
-                <th>做法</th>
-                <th>变现方式</th>
+                <th scope="col">方向</th>
+                <th scope="col">做法</th>
+                <th scope="col">变现方式</th>
               </tr>
             </thead>
             <tbody>
@@ -851,7 +851,7 @@
             </tbody>
           </table>
         </div>
-        <p class="text-sm mt-1" style="color:var(--text-muted)">工具：<a href="https://promptbase.com/"
+        <p class="text-sm mt-1">工具：<a href="https://promptbase.com/"
             target="_blank">PromptBase</a> · <a href="https://poe.com/" target="_blank">Poe</a> · <a
             href="https://chat.openai.com/gpts" target="_blank">GPT Store</a> · <a href="https://replicate.com/"
             target="_blank">Replicate</a> · <a href="https://huggingface.co/" target="_blank">Hugging Face</a></p>
@@ -860,14 +860,14 @@
       <!-- 16 -->
       <section class="section reveal" id="s16">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(6,182,212,0.2),rgba(34,197,94,0.2))">💤</span> 十六、被动收入</h2>
+           >💤</span> 十六、被动收入</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>方式</th>
-                <th>说明</th>
-                <th>月收入</th>
+                <th scope="col">方式</th>
+                <th scope="col">说明</th>
+                <th scope="col">月收入</th>
               </tr>
             </thead>
             <tbody>
@@ -899,7 +899,7 @@
             </tbody>
           </table>
         </div>
-        <p class="text-sm mt-1" style="color:var(--text-muted)">自动化工具：<a href="https://github.com/n8n-io/n8n"
+        <p class="text-sm mt-1">自动化工具：<a href="https://github.com/n8n-io/n8n"
             target="_blank">n8n</a> ⭐50k+ · <a href="https://github.com/huginn/huginn" target="_blank">Huginn</a> ⭐44k+
           · <a href="https://github.com/activepieces/activepieces" target="_blank">Activepieces</a> ⭐12k+</p>
       </section>
@@ -907,15 +907,15 @@
       <!-- 17 -->
       <section class="section reveal" id="s17">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(249,115,22,0.2),rgba(99,102,241,0.2))">🌍</span> 十七、跨境在线创业
+           >🌍</span> 十七、跨境在线创业
         </h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>方向</th>
-                <th>启动成本</th>
-                <th>说明</th>
+                <th scope="col">方向</th>
+                <th scope="col">启动成本</th>
+                <th scope="col">说明</th>
               </tr>
             </thead>
             <tbody>
@@ -947,7 +947,7 @@
             </tbody>
           </table>
         </div>
-        <p class="text-sm mt-1" style="color:var(--text-muted)">收款：<a href="https://stripe.com"
+        <p class="text-sm mt-1">收款：<a href="https://stripe.com"
             target="_blank">Stripe</a> ·
           <a href="https://paddle.com" target="_blank">Paddle</a> · <a href="https://lemonsqueezy.com"
             target="_blank">LemonSqueezy</a> · <a href="https://paypal.com" target="_blank">PayPal</a> · <a
@@ -958,14 +958,14 @@
       <!-- 18 -->
       <section class="section reveal" id="s18">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(234,179,8,0.2),rgba(249,115,22,0.2))">📖</span> 十八、出书 / 出版
+           >📖</span> 十八、出书 / 出版
         </h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>渠道</th>
-                <th>收入参考</th>
+                <th scope="col">渠道</th>
+                <th scope="col">收入参考</th>
               </tr>
             </thead>
             <tbody>
@@ -993,13 +993,13 @@
       <!-- 19 -->
       <section class="section reveal" id="s19">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(99,102,241,0.2),rgba(236,72,153,0.2))">👥</span> 十九、付费社群</h2>
+           >👥</span> 十九、付费社群</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>平台</th>
-                <th>定价参考</th>
+                <th scope="col">平台</th>
+                <th scope="col">定价参考</th>
               </tr>
             </thead>
             <tbody>
@@ -1028,7 +1028,7 @@
       <!-- 20 -->
       <section class="section reveal" id="s20">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(34,197,94,0.2),rgba(139,92,246,0.2))">🎯</span> 二十、其他合法路子</h2>
+           >🎯</span> 二十、其他合法路子</h2>
         <div class="cards cards-3">
           <div class="card">
             <div class="card-title">技术面试官</div>
@@ -1074,7 +1074,7 @@
 
   <footer class="footer">
     <p>整合自 GitHub 20+ 个仓库 (100k+ Stars) · 所有方式均合法合规</p>
-    <p style="margin-top:0.5rem">
+    <p>
       <a href="index.html">首页</a> ·
       <a href="projects.html">赚钱项目</a> ·
       <a href="legal.html">合法路子</a> ·
@@ -1083,7 +1083,7 @@
     </p>
   </footer>
 
-  <button class="back-top" id="backTop" onclick="window.scrollTo({top:0})">↑</button>
+  <button class="back-top" id="backTop" type="button" aria-label="回到顶部">↑</button>
   <script src="main.js"></script>
 </body>
 

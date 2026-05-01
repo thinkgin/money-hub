@@ -11,10 +11,10 @@
 <body>
 
   <!-- Nav -->
-  <nav class="nav">
+  <nav class="nav" aria-label="主导航">
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo">💰 赚钱知识库</a>
-      <button class="menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+      <a href="index.html" class="nav-logo">赚钱知识库</a>
+      <button class="menu-btn" type="button" aria-label="打开导航菜单" aria-expanded="false">☰</button>
       <div class="nav-links">
         <a href="index.html" class="active">首页</a>
         <a href="projects.html">赚钱项目</a>
@@ -50,12 +50,12 @@
   </section>
 
   <!-- Hub Cards -->
-  <div class="container">
+  <main class="container">
     <div class="hub-grid reveal">
       <!-- Card 1 -->
-      <a href="projects.html" style="text-decoration:none;color:inherit">
+      <a href="projects.html">
         <div class="hub-card">
-          <div class="hub-icon" style="background:linear-gradient(135deg,rgba(99,102,241,0.2),rgba(139,92,246,0.2))">🤑
+          <div class="hub-icon">🤑
           </div>
           <h3>GitHub 赚钱项目大全</h3>
           <p>AI 副业、独立开发、被动收入、开源变现、SaaS 创业、量化交易、Web3 等 15 大方向</p>
@@ -68,9 +68,9 @@
         </div>
       </a>
       <!-- Card 2 -->
-      <a href="legal.html" style="text-decoration:none;color:inherit">
+      <a href="legal.html">
         <div class="hub-card">
-          <div class="hub-icon" style="background:linear-gradient(135deg,rgba(34,197,94,0.2),rgba(6,182,212,0.2))">💰
+          <div class="hub-icon">💰
           </div>
           <h3>程序员合法赚钱路子</h3>
           <p>接单外包、远程全职、付费专栏、技术咨询、Bug赏金、被动收入等 20 大合法方式</p>
@@ -83,9 +83,9 @@
         </div>
       </a>
       <!-- Card 3 -->
-      <a href="games.html" style="text-decoration:none;color:inherit">
+      <a href="games.html">
         <div class="hub-card">
-          <div class="hub-icon" style="background:linear-gradient(135deg,rgba(249,115,22,0.2),rgba(234,179,8,0.2))">🎮
+          <div class="hub-icon">🎮
           </div>
           <h3>游戏赚钱策略大全</h3>
           <p>Telegram 小游戏、Steam 皮肤套利、MMORPG 打金、独立游戏开发、P2E 链游等 12 大方向</p>
@@ -98,9 +98,9 @@
         </div>
       </a>
       <!-- Card 4 -->
-      <a href="tools.html" style="text-decoration:none;color:inherit">
+      <a href="tools.html">
         <div class="hub-card">
-          <div class="hub-icon" style="background:linear-gradient(135deg,rgba(6,182,212,0.2),rgba(59,130,246,0.2))">🛠️
+          <div class="hub-icon">🛠️
           </div>
           <h3>实用单机小工具大全</h3>
           <p>文件管理、图片视频、系统优化、效率提升、开发辅助、安全隐私等 20 大分类 200+ 工具</p>
@@ -115,64 +115,64 @@
     </div>
 
     <!-- Core Principles -->
-    <section class="section reveal" style="margin-top:4rem">
+    <section class="section reveal">
       <h2 class="section-title">
         <span class="icon"
-          style="background:linear-gradient(135deg,rgba(99,102,241,0.2),rgba(139,92,246,0.2))">🧠</span>
+         >🧠</span>
         核心赚钱思维
       </h2>
       <div class="principles">
         <div class="principle">
-          <div class="num" style="background:rgba(99,102,241,0.15);color:var(--color-indigo)">1</div>
+          <div class="num">1</div>
           <div>
             <h4>做资产，不卖时间</h4>
             <p>你的时间不能同时卖出多份就和打工没差别。一次开发，反复销售。</p>
           </div>
         </div>
         <div class="principle">
-          <div class="num" style="background:rgba(34,197,94,0.15);color:var(--color-green)">2</div>
+          <div class="num">2</div>
           <div>
             <h4>做铲子，不挖金子</h4>
             <p>卖工具给挖金者比自己挖风险低。做基础设施和开发者工具。</p>
           </div>
         </div>
         <div class="principle">
-          <div class="num" style="background:rgba(6,182,212,0.15);color:var(--color-cyan)">3</div>
+          <div class="num">3</div>
           <div>
             <h4>做垂类，不做平台</h4>
             <p>GPT 套壳太多，加一个垂直场景你就能脱颖而出。足够聚焦才有竞争力。</p>
           </div>
         </div>
         <div class="principle">
-          <div class="num" style="background:rgba(249,115,22,0.15);color:var(--color-orange)">4</div>
+          <div class="num">4</div>
           <div>
             <h4>开源赚流量</h4>
             <p>开源项目是最好的个人名片。开源获得关注，关注转化为收入。</p>
           </div>
         </div>
         <div class="principle">
-          <div class="num" style="background:rgba(236,72,153,0.15);color:var(--color-pink)">5</div>
+          <div class="num">5</div>
           <div>
             <h4>Build in Public</h4>
             <p>公开构建过程，获得公共认同和流量。透明度建立信任。</p>
           </div>
         </div>
         <div class="principle">
-          <div class="num" style="background:rgba(234,179,8,0.15);color:var(--color-yellow)">6</div>
+          <div class="num">6</div>
           <div>
             <h4>做国外赚美刀</h4>
             <p>避免国内审核，付费意愿更强。面向全球市场。</p>
           </div>
         </div>
         <div class="principle">
-          <div class="num" style="background:rgba(239,68,68,0.15);color:var(--color-red)">7</div>
+          <div class="num">7</div>
           <div>
             <h4>AI 是放大器</h4>
             <p>用 AI 工具 10x 提升产出效率。矩阵打法多平台分发。</p>
           </div>
         </div>
         <div class="principle">
-          <div class="num" style="background:rgba(99,102,241,0.15);color:var(--color-indigo)">8</div>
+          <div class="num">8</div>
           <div>
             <h4>从小切入</h4>
             <p>先做 MVP 验证，不要一上来搞太大。选小市场，大公司看不上但养活一人。</p>
@@ -184,19 +184,19 @@
     <!-- Top Earning Methods -->
     <section class="section reveal">
       <h2 class="section-title">
-        <span class="icon" style="background:linear-gradient(135deg,rgba(34,197,94,0.2),rgba(6,182,212,0.2))">📊</span>
+        <span class="icon">📊</span>
         赚钱方式性价比 Top 10
       </h2>
       <div class="table-wrap">
         <table>
           <thead>
             <tr>
-              <th>排名</th>
-              <th>方式</th>
-              <th>启动成本</th>
-              <th>时间投入</th>
-              <th>天花板</th>
-              <th>被动性</th>
+              <th scope="col">排名</th>
+              <th scope="col">方式</th>
+              <th scope="col">启动成本</th>
+              <th scope="col">时间投入</th>
+              <th scope="col">天花板</th>
+              <th scope="col">被动性</th>
             </tr>
           </thead>
           <tbody>
@@ -288,16 +288,16 @@
     <!-- Success Cases -->
     <section class="section reveal">
       <h2 class="section-title">
-        <span class="icon" style="background:linear-gradient(135deg,rgba(234,179,8,0.2),rgba(249,115,22,0.2))">🏆</span>
+        <span class="icon">🏆</span>
         成功案例速览
       </h2>
       <div class="table-wrap">
         <table>
           <thead>
             <tr>
-              <th>开发者/项目</th>
-              <th>月收入</th>
-              <th>方式</th>
+              <th scope="col">开发者/项目</th>
+              <th scope="col">月收入</th>
+              <th scope="col">方式</th>
             </tr>
           </thead>
           <tbody>
@@ -350,72 +350,72 @@
     <section class="section reveal">
       <h2 class="section-title">
         <span class="icon"
-          style="background:linear-gradient(135deg,rgba(139,92,246,0.2),rgba(236,72,153,0.2))">📚</span>
+         >📚</span>
         核心 GitHub 仓库推荐
       </h2>
       <div class="repo-list">
         <a href="https://github.com/1c7/chinese-independent-developer" target="_blank" class="repo-card"
-          style="text-decoration:none;color:inherit">
+         >
           <span class="repo-stars">⭐ 40k+</span>
           <div>
             <div class="fw-700">chinese-independent-developer</div>
-            <div class="text-sm" style="color:var(--text-muted)">中国独立开发者项目列表</div>
+            <div class="text-sm">中国独立开发者项目列表</div>
           </div>
         </a>
         <a href="https://github.com/easychen/howto-make-more-money" target="_blank" class="repo-card"
-          style="text-decoration:none;color:inherit">
+         >
           <span class="repo-stars">⭐ 17k+</span>
           <div>
             <div class="fw-700">howto-make-more-money</div>
-            <div class="text-sm" style="color:var(--text-muted)">程序员如何优雅的挣零花钱</div>
+            <div class="text-sm">程序员如何优雅的挣零花钱</div>
           </div>
         </a>
         <a href="https://github.com/bleedline/aimoneyhunter" target="_blank" class="repo-card"
-          style="text-decoration:none;color:inherit">
+         >
           <span class="repo-stars">⭐ 14k+</span>
           <div>
             <div class="fw-700">aimoneyhunter</div>
-            <div class="text-sm" style="color:var(--text-muted)">AI 副业赚钱大集合</div>
+            <div class="text-sm">AI 副业赚钱大集合</div>
           </div>
         </a>
         <a href="https://github.com/mezod/awesome-indie" target="_blank" class="repo-card"
-          style="text-decoration:none;color:inherit">
+         >
           <span class="repo-stars">⭐ 10k+</span>
           <div>
             <div class="fw-700">awesome-indie</div>
-            <div class="text-sm" style="color:var(--text-muted)">独立开发者赚钱资源 (英文)</div>
+            <div class="text-sm">独立开发者赚钱资源 (英文)</div>
           </div>
         </a>
         <a href="https://github.com/engineerapart/TheRemoteFreelancer" target="_blank" class="repo-card"
-          style="text-decoration:none;color:inherit">
+         >
           <span class="repo-stars">⭐ 7k+</span>
           <div>
             <div class="fw-700">TheRemoteFreelancer</div>
-            <div class="text-sm" style="color:var(--text-muted)">远程自由职业平台大全</div>
+            <div class="text-sm">远程自由职业平台大全</div>
           </div>
         </a>
         <a href="https://github.com/nayafia/lemonade-stand" target="_blank" class="repo-card"
-          style="text-decoration:none;color:inherit">
+         >
           <span class="repo-stars">⭐ 7k+</span>
           <div>
             <div class="fw-700">lemonade-stand</div>
-            <div class="text-sm" style="color:var(--text-muted)">开源项目获得财务支持指南</div>
+            <div class="text-sm">开源项目获得财务支持指南</div>
           </div>
         </a>
         <a href="https://github.com/CodingDocs/programmer-sideline" target="_blank" class="repo-card"
-          style="text-decoration:none;color:inherit">
+         >
           <span class="repo-stars">⭐ 3k+</span>
           <div>
             <div class="fw-700">programmer-sideline</div>
-            <div class="text-sm" style="color:var(--text-muted)">程序员副业赚钱之路</div>
+            <div class="text-sm">程序员副业赚钱之路</div>
           </div>
         </a>
         <a href="https://github.com/PayDevs/awesome-oss-monetization" target="_blank" class="repo-card"
-          style="text-decoration:none;color:inherit">
+         >
           <span class="repo-stars">⭐ 2k+</span>
           <div>
             <div class="fw-700">awesome-oss-monetization</div>
-            <div class="text-sm" style="color:var(--text-muted)">开源项目变现方法大全</div>
+            <div class="text-sm">开源项目变现方法大全</div>
           </div>
         </a>
       </div>
@@ -424,12 +424,12 @@
     <div class="tip reveal">
       <strong>💡 核心原则：</strong>用"睡后收入"替代"出卖时间"。程序员最大的优势是能把自己的能力打包成产品，一次开发，反复销售。选一个你感兴趣的方向，今天就开始。
     </div>
-  </div>
+  </main>
 
   <!-- Footer -->
   <footer class="footer">
     <p>整合自 GitHub 50+ 个热门仓库 · 仅供参考，不构成投资建议</p>
-    <p style="margin-top:0.5rem">
+    <p>
       <a href="index.html">首页</a> ·
       <a href="projects.html">赚钱项目</a> ·
       <a href="legal.html">合法路子</a> ·
@@ -439,7 +439,7 @@
   </footer>
 
   <!-- Back to top -->
-  <button class="back-top" id="backTop" onclick="window.scrollTo({top:0})">↑</button>
+  <button class="back-top" id="backTop" type="button" aria-label="回到顶部">↑</button>
   <script src="main.js"></script>
 </body>
 

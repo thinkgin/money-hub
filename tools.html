@@ -10,10 +10,10 @@
 
 <body>
 
-  <nav class="nav">
+  <nav class="nav" aria-label="主导航">
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo">💰 赚钱知识库</a>
-      <button class="menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+      <a href="index.html" class="nav-logo">赚钱知识库</a>
+      <button class="menu-btn" type="button" aria-label="打开导航菜单" aria-expanded="false">☰</button>
       <div class="nav-links">
         <a href="index.html">首页</a>
         <a href="projects.html">赚钱项目</a>
@@ -25,7 +25,7 @@
   </nav>
 
   <section class="hero">
-    <h1>🛠️ 实用单机小工具大全</h1>
+    <h1>实用单机小工具大全</h1>
     <p>精选 GitHub 上 200+ 个开源实用小工具，全部本地运行、无需服务器</p>
     <div class="stats">
       <div class="stat">
@@ -74,15 +74,15 @@
       <!-- 1 文件管理 -->
       <section class="section reveal" id="t1">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(99,102,241,0.2),rgba(139,92,246,0.2))">📁</span> 文件管理与搜索</h2>
+           >📁</span> 文件管理与搜索</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>工具</th>
-                <th>Stars</th>
-                <th>说明</th>
-                <th>平台</th>
+                <th scope="col">工具</th>
+                <th scope="col">Stars</th>
+                <th scope="col">说明</th>
+                <th scope="col">平台</th>
               </tr>
             </thead>
             <tbody>
@@ -132,15 +132,15 @@
       <!-- 2 图片 -->
       <section class="section reveal" id="t2">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(236,72,153,0.2),rgba(139,92,246,0.2))">🖼️</span> 图片处理与查看</h2>
+           >🖼️</span> 图片处理与查看</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>工具</th>
-                <th>Stars</th>
-                <th>说明</th>
-                <th>平台</th>
+                <th scope="col">工具</th>
+                <th scope="col">Stars</th>
+                <th scope="col">说明</th>
+                <th scope="col">平台</th>
               </tr>
             </thead>
             <tbody>
@@ -189,15 +189,15 @@
       <!-- 3 视频音频 -->
       <section class="section reveal" id="t3">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(249,115,22,0.2),rgba(234,179,8,0.2))">🎬</span> 视频/音频处理</h2>
+           >🎬</span> 视频/音频处理</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>工具</th>
-                <th>Stars</th>
-                <th>说明</th>
-                <th>平台</th>
+                <th scope="col">工具</th>
+                <th scope="col">Stars</th>
+                <th scope="col">说明</th>
+                <th scope="col">平台</th>
               </tr>
             </thead>
             <tbody>
@@ -247,15 +247,15 @@
       <!-- 4-6 PDF/截图/剪贴板 -->
       <section class="section reveal" id="t4">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(239,68,68,0.2),rgba(249,115,22,0.2))">📄</span> PDF 工具</h2>
+           >📄</span> PDF 工具</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>工具</th>
-                <th>Stars</th>
-                <th>说明</th>
-                <th>平台</th>
+                <th scope="col">工具</th>
+                <th scope="col">Stars</th>
+                <th scope="col">说明</th>
+                <th scope="col">平台</th>
               </tr>
             </thead>
             <tbody>
@@ -286,15 +286,15 @@
 
       <section class="section reveal" id="t5">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(6,182,212,0.2),rgba(59,130,246,0.2))">📸</span> 截图与录屏</h2>
+           >📸</span> 截图与录屏</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>工具</th>
-                <th>Stars</th>
-                <th>说明</th>
-                <th>平台</th>
+                <th scope="col">工具</th>
+                <th scope="col">Stars</th>
+                <th scope="col">说明</th>
+                <th scope="col">平台</th>
               </tr>
             </thead>
             <tbody>
@@ -324,7 +324,7 @@
 
       <section class="section reveal" id="t6">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(34,197,94,0.2),rgba(6,182,212,0.2))">📋</span> 剪贴板管理</h2>
+           >📋</span> 剪贴板管理</h2>
         <div class="cards cards-3">
           <div class="card">
             <div class="card-title"><a href="https://github.com/hluk/CopyQ" target="_blank">CopyQ</a> ⭐ 9k+</div>
@@ -346,15 +346,15 @@
       <!-- 7 下载 -->
       <section class="section reveal" id="t7">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(99,102,241,0.2),rgba(6,182,212,0.2))">⬇️</span> 下载工具</h2>
+           >⬇️</span> 下载工具</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>工具</th>
-                <th>Stars</th>
-                <th>说明</th>
-                <th>平台</th>
+                <th scope="col">工具</th>
+                <th scope="col">Stars</th>
+                <th scope="col">说明</th>
+                <th scope="col">平台</th>
               </tr>
             </thead>
             <tbody>
@@ -391,7 +391,7 @@
       <!-- 8 编辑器 -->
       <section class="section reveal" id="t8">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(139,92,246,0.2),rgba(236,72,153,0.2))">✏️</span> 文本编辑器</h2>
+           >✏️</span> 文本编辑器</h2>
         <div class="cards cards-3">
           <div class="card">
             <div class="card-title"><a href="https://github.com/notepad-plus-plus/notepad-plus-plus"
@@ -412,14 +412,14 @@
       <!-- 9 笔记 -->
       <section class="section reveal" id="t9">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(234,179,8,0.2),rgba(249,115,22,0.2))">📝</span> 笔记与知识管理</h2>
+           >📝</span> 笔记与知识管理</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>工具</th>
-                <th>Stars</th>
-                <th>说明</th>
+                <th scope="col">工具</th>
+                <th scope="col">Stars</th>
+                <th scope="col">说明</th>
               </tr>
             </thead>
             <tbody>
@@ -456,14 +456,14 @@
       <!-- 10 系统 -->
       <section class="section reveal" id="t10">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(59,130,246,0.2),rgba(99,102,241,0.2))">⚙️</span> 系统工具与优化</h2>
+           >⚙️</span> 系统工具与优化</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>工具</th>
-                <th>Stars</th>
-                <th>说明</th>
+                <th scope="col">工具</th>
+                <th scope="col">Stars</th>
+                <th scope="col">说明</th>
               </tr>
             </thead>
             <tbody>
@@ -501,7 +501,7 @@
       <!-- 11-12 压缩/安全 -->
       <section class="section reveal" id="t11">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(34,197,94,0.2),rgba(139,92,246,0.2))">📦</span> 压缩与解压</h2>
+           >📦</span> 压缩与解压</h2>
         <div class="cards cards-3">
           <div class="card">
             <div class="card-title"><a href="https://github.com/ip7z/7zip" target="_blank">7-Zip</a> ⭐ 8k+</div>
@@ -520,14 +520,14 @@
 
       <section class="section reveal" id="t12">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(239,68,68,0.2),rgba(249,115,22,0.2))">🔒</span> 密码与安全</h2>
+           >🔒</span> 密码与安全</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>工具</th>
-                <th>Stars</th>
-                <th>说明</th>
+                <th scope="col">工具</th>
+                <th scope="col">Stars</th>
+                <th scope="col">说明</th>
               </tr>
             </thead>
             <tbody>
@@ -561,14 +561,14 @@
       <!-- 13 网络 -->
       <section class="section reveal" id="t13">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(6,182,212,0.2),rgba(59,130,246,0.2))">🌐</span> 网络与传输</h2>
+           >🌐</span> 网络与传输</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>工具</th>
-                <th>Stars</th>
-                <th>说明</th>
+                <th scope="col">工具</th>
+                <th scope="col">Stars</th>
+                <th scope="col">说明</th>
               </tr>
             </thead>
             <tbody>
@@ -605,7 +605,7 @@
       <!-- 14 终端 -->
       <section class="section reveal" id="t14">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(99,102,241,0.2),rgba(139,92,246,0.2))">⌨️</span> 终端与命令行</h2>
+           >⌨️</span> 终端与命令行</h2>
         <div class="cards cards-4">
           <div class="card">
             <div class="card-title"><a href="https://github.com/microsoft/terminal" target="_blank">Windows Terminal</a>
@@ -625,15 +625,15 @@
             <div class="card-desc">44k+ · 可配置终端</div>
           </div>
         </div>
-        <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">命令行工具 Top 10</h3>
+        <h3>命令行工具 Top 10</h3>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>#</th>
-                <th>工具</th>
-                <th>替代</th>
-                <th>Stars</th>
+                <th scope="col">#</th>
+                <th scope="col">工具</th>
+                <th scope="col">替代</th>
+                <th scope="col">Stars</th>
               </tr>
             </thead>
             <tbody>
@@ -705,14 +705,14 @@
       <!-- 15 开发 -->
       <section class="section reveal" id="t15">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(34,197,94,0.2),rgba(6,182,212,0.2))">🔧</span> 开发辅助工具</h2>
+           >🔧</span> 开发辅助工具</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>工具</th>
-                <th>Stars</th>
-                <th>说明</th>
+                <th scope="col">工具</th>
+                <th scope="col">Stars</th>
+                <th scope="col">说明</th>
               </tr>
             </thead>
             <tbody>
@@ -752,7 +752,7 @@
       <!-- 16 AI -->
       <section class="section reveal" id="t16">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(139,92,246,0.2),rgba(236,72,153,0.2))">🤖</span> AI 本地工具</h2>
+           >🤖</span> AI 本地工具</h2>
         <div class="cards cards-3">
           <div class="card">
             <div class="card-title"><a href="https://github.com/ollama/ollama" target="_blank">ollama</a> ⭐ 153k+</div>
@@ -772,7 +772,7 @@
       <!-- 17-18 美化/效率 -->
       <section class="section reveal" id="t17">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(236,72,153,0.2),rgba(249,115,22,0.2))">🎨</span> 桌面定制与美化</h2>
+           >🎨</span> 桌面定制与美化</h2>
         <div class="cards cards-3">
           <div class="card">
             <div class="card-title"><a href="https://github.com/rainmeter/rainmeter" target="_blank">Rainmeter</a></div>
@@ -793,14 +793,14 @@
 
       <section class="section reveal" id="t18">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(99,102,241,0.2),rgba(34,197,94,0.2))">⚡</span> 效率与自动化</h2>
+           >⚡</span> 效率与自动化</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>工具</th>
-                <th>Stars</th>
-                <th>说明</th>
+                <th scope="col">工具</th>
+                <th scope="col">Stars</th>
+                <th scope="col">说明</th>
               </tr>
             </thead>
             <tbody>
@@ -830,7 +830,7 @@
       <!-- 19-20 恢复/其他 -->
       <section class="section reveal" id="t19">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(234,179,8,0.2),rgba(239,68,68,0.2))">💾</span> 数据恢复与备份</h2>
+           >💾</span> 数据恢复与备份</h2>
         <div class="cards cards-3">
           <div class="card">
             <div class="card-title">TestDisk / PhotoRec</div>
@@ -850,7 +850,7 @@
 
       <section class="section reveal" id="t20">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(6,182,212,0.2),rgba(139,92,246,0.2))">🧰</span> 其他实用工具</h2>
+           >🧰</span> 其他实用工具</h2>
         <div class="cards cards-3">
           <div class="card">
             <div class="card-title">LibreOffice</div>
@@ -883,15 +883,15 @@
       <!-- Windows Top 20 -->
       <section class="section reveal" id="top20">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(59,130,246,0.2),rgba(99,102,241,0.2))">🏆</span> Windows 必装
+           >🏆</span> Windows 必装
           Top 20</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>#</th>
-                <th>工具</th>
-                <th>用途</th>
+                <th scope="col">#</th>
+                <th scope="col">工具</th>
+                <th scope="col">用途</th>
               </tr>
             </thead>
             <tbody>
@@ -1009,7 +1009,7 @@
 
   <footer class="footer">
     <p>整合自 GitHub awesome-windows、awesome-cli-apps 等 15+ 个 Awesome 列表 · 仅收录开源或免费工具</p>
-    <p style="margin-top:0.5rem">
+    <p>
       <a href="index.html">首页</a> ·
       <a href="projects.html">赚钱项目</a> ·
       <a href="legal.html">合法路子</a> ·
@@ -1018,7 +1018,7 @@
     </p>
   </footer>
 
-  <button class="back-top" id="backTop" onclick="window.scrollTo({top:0})">↑</button>
+  <button class="back-top" id="backTop" type="button" aria-label="回到顶部">↑</button>
   <script src="main.js"></script>
 </body>
 

@@ -10,10 +10,10 @@
 
 <body>
 
-  <nav class="nav">
+  <nav class="nav" aria-label="主导航">
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo">💰 赚钱知识库</a>
-      <button class="menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+      <a href="index.html" class="nav-logo">赚钱知识库</a>
+      <button class="menu-btn" type="button" aria-label="打开导航菜单" aria-expanded="false">☰</button>
       <div class="nav-links">
         <a href="index.html">首页</a>
         <a href="projects.html">赚钱项目</a>
@@ -25,7 +25,7 @@
   </nav>
 
   <section class="hero">
-    <h1>🎮 游戏赚钱策略大全</h1>
+    <h1>游戏赚钱策略大全</h1>
     <p>Telegram 小游戏、Steam 皮肤套利、MMORPG 打金、独立游戏开发、P2E 链游、Roblox 等全方向</p>
     <div class="stats">
       <div class="stat">
@@ -53,7 +53,7 @@
       <a href="#bot">游戏自动化脚本</a>
       <a href="#indie">独立游戏开发</a>
       <a href="#asset">游戏资产售卖</a>
-      <a href="#server">私服 & 托管</a>
+      <a href="#server">私服 &amp; 托管</a>
       <a href="#band">带宽被动收入</a>
       <a href="#roblox">Roblox 生态</a>
       <a href="#strategy">核心策略</a>
@@ -64,20 +64,20 @@
       <!-- TG -->
       <section class="section reveal" id="tg">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(6,182,212,0.2),rgba(59,130,246,0.2))">📱</span> Telegram 小游戏
+           >📱</span> Telegram 小游戏
           (Tap-to-Earn)</h2>
-        <p class="text-sm mb-2" style="color:var(--text-muted)">2024-2025 最火赛道，Notcoin 单项目用户破 3500 万</p>
+        <p class="text-sm mb-2">2024-2025 最火赛道，Notcoin 单项目用户破 3500 万</p>
         <div class="flow">开发者搭建 Telegram Mini App → 用户点击赚代币 → 裂变拉人 → 社区做大
           → 项目方发币/空投 → 上交易所 → 开发者+早期用户变现</div>
-        <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">成功案例</h3>
+        <h3>成功案例</h3>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>项目</th>
-                <th>用户量</th>
-                <th>变现方式</th>
-                <th>状态</th>
+                <th scope="col">项目</th>
+                <th scope="col">用户量</th>
+                <th scope="col">变现方式</th>
+                <th scope="col">状态</th>
               </tr>
             </thead>
             <tbody>
@@ -108,7 +108,7 @@
             </tbody>
           </table>
         </div>
-        <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">赚钱策略</h3>
+        <h3>赚钱策略</h3>
         <div class="cards cards-2">
           <div class="card">
             <div class="card-title">自建游戏发币</div>
@@ -136,17 +136,17 @@
       <!-- Steam -->
       <section class="section reveal" id="steam">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(99,102,241,0.2),rgba(139,92,246,0.2))">🎯</span> Steam / CS2
+           >🎯</span> Steam / CS2
           皮肤交易套利</h2>
         <div class="flow">低价平台买入皮肤 (BUFF/悠悠有品) → 高价平台卖出 (Steam/CSFloat) → 赚取差价</div>
-        <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">核心工具链</h3>
+        <h3>核心工具链</h3>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>类型</th>
-                <th>工具</th>
-                <th>功能</th>
+                <th scope="col">类型</th>
+                <th scope="col">工具</th>
+                <th scope="col">功能</th>
               </tr>
             </thead>
             <tbody>
@@ -161,7 +161,7 @@
               </tr>
               <tr>
                 <td><a href="https://steamdt.com/en" target="_blank">SteamDT</a></td>
-                <td>价格趋势 & 市场概览</td>
+                <td>价格趋势 &amp; 市场概览</td>
               </tr>
               <tr>
                 <td rowspan="3"><strong>自动交易</strong></td>
@@ -189,7 +189,7 @@
             </tbody>
           </table>
         </div>
-        <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">收入参考</h3>
+        <h3>收入参考</h3>
         <div class="cards cards-3">
           <div class="card">
             <div class="card-title">小资金 (&lt;$500)</div>
@@ -209,15 +209,15 @@
       <!-- Gold Farming -->
       <section class="section reveal" id="gold">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(234,179,8,0.2),rgba(249,115,22,0.2))">⚔️</span> MMORPG 打金</h2>
+           >⚔️</span> MMORPG 打金</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>游戏</th>
-                <th>打金方式</th>
-                <th>变现渠道</th>
-                <th>月收入</th>
+                <th scope="col">游戏</th>
+                <th scope="col">打金方式</th>
+                <th scope="col">变现渠道</th>
+                <th scope="col">月收入</th>
               </tr>
             </thead>
             <tbody>
@@ -248,7 +248,7 @@
             </tbody>
           </table>
         </div>
-        <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">开源工具</h3>
+        <h3>开源工具</h3>
         <div class="cards cards-2">
           <div class="card">
             <div class="card-title"><a href="https://github.com/fmorris2/orion" target="_blank">orion</a></div>
@@ -267,15 +267,15 @@
       <!-- P2E -->
       <section class="section reveal" id="p2e">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(139,92,246,0.2),rgba(236,72,153,0.2))">🎲</span> P2E 链游 & NFT
+           >🎲</span> P2E 链游 &amp; NFT
           游戏</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>类型</th>
-                <th>代表项目</th>
-                <th>赚钱方式</th>
+                <th scope="col">类型</th>
+                <th scope="col">代表项目</th>
+                <th scope="col">赚钱方式</th>
               </tr>
             </thead>
             <tbody>
@@ -321,13 +321,13 @@
       <!-- Bot -->
       <section class="section reveal" id="bot">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(34,197,94,0.2),rgba(6,182,212,0.2))">🤖</span> 游戏自动化脚本</h2>
+           >🤖</span> 游戏自动化脚本</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>平台</th>
-                <th>技术栈</th>
+                <th scope="col">平台</th>
+                <th scope="col">技术栈</th>
               </tr>
             </thead>
             <tbody>
@@ -367,15 +367,15 @@
       <!-- Indie Game -->
       <section class="section reveal" id="indie">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(249,115,22,0.2),rgba(234,179,8,0.2))">🎮</span> 独立游戏开发变现</h2>
+           >🎮</span> 独立游戏开发变现</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>模式</th>
-                <th>适合平台</th>
-                <th>收入上限</th>
-                <th>难度</th>
+                <th scope="col">模式</th>
+                <th scope="col">适合平台</th>
+                <th scope="col">收入上限</th>
+                <th scope="col">难度</th>
               </tr>
             </thead>
             <tbody>
@@ -406,7 +406,7 @@
             </tbody>
           </table>
         </div>
-        <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">引擎对比（商业化角度）</h3>
+        <h3>引擎对比（商业化角度）</h3>
         <div class="cards cards-4">
           <div class="card">
             <div class="card-title">Unity</div>
@@ -425,14 +425,14 @@
             <div class="card-desc">完全免费开源<br>适合 3D 项目</div>
           </div>
         </div>
-        <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">发行平台</h3>
+        <h3>发行平台</h3>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>平台</th>
-                <th>分成</th>
-                <th>特点</th>
+                <th scope="col">平台</th>
+                <th scope="col">分成</th>
+                <th scope="col">特点</th>
               </tr>
             </thead>
             <tbody>
@@ -461,21 +461,21 @@
         </div>
         <div class="flow mt-2">超休闲游戏赚钱路线：
           创意验证 (1-3天原型) → CPI 测试 (Facebook 广告)
-          → CPI < $0.30 → 开发完整版 (2-4周) → 接入广告 SDK → 发布 → 买量 → 广告收入> 买量成本 = 盈利</div>
+          → CPI &lt; $0.30 → 开发完整版 (2-4周) → 接入广告 SDK → 发布 → 买量 → 广告收入 &gt; 买量成本 = 盈利</div>
       </section>
 
       <!-- Asset -->
       <section class="section reveal" id="asset">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(236,72,153,0.2),rgba(139,92,246,0.2))">🎨</span> 游戏资产 & 模板售卖
+           >🎨</span> 游戏资产 &amp; 模板售卖
         </h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>平台</th>
-                <th>类型</th>
-                <th>抽成</th>
+                <th scope="col">平台</th>
+                <th scope="col">类型</th>
+                <th scope="col">抽成</th>
               </tr>
             </thead>
             <tbody>
@@ -507,7 +507,7 @@
             </tbody>
           </table>
         </div>
-        <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">什么卖得好</h3>
+        <h3>什么卖得好</h3>
         <div class="cards cards-3">
           <div class="card">
             <div class="card-title">完整游戏模板</div>
@@ -539,15 +539,15 @@
       <!-- Server -->
       <section class="section reveal" id="server">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(239,68,68,0.2),rgba(249,115,22,0.2))">🖥️</span> 私服 & 服务器托管
+           >🖥️</span> 私服 &amp; 服务器托管
         </h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>游戏</th>
-                <th>项目</th>
-                <th>Stars</th>
+                <th scope="col">游戏</th>
+                <th scope="col">项目</th>
+                <th scope="col">Stars</th>
               </tr>
             </thead>
             <tbody>
@@ -589,14 +589,14 @@
       <!-- Bandwidth -->
       <section class="section reveal" id="band">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(6,182,212,0.2),rgba(34,197,94,0.2))">📡</span> 带宽共享被动收入</h2>
-        <p class="text-sm mb-2" style="color:var(--text-muted)">游戏挂机电脑同时跑带宽共享，一份硬件双重收益</p>
+           >📡</span> 带宽共享被动收入</h2>
+        <p class="text-sm mb-2">游戏挂机电脑同时跑带宽共享，一份硬件双重收益</p>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>平台</th>
-                <th>月收入/IP</th>
+                <th scope="col">平台</th>
+                <th scope="col">月收入/IP</th>
               </tr>
             </thead>
             <tbody>
@@ -626,15 +626,15 @@
       <!-- Roblox -->
       <section class="section reveal" id="roblox">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(99,102,241,0.2),rgba(236,72,153,0.2))">🧱</span> Roblox 生态赚钱
+           >🧱</span> Roblox 生态赚钱
         </h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>方式</th>
-                <th>说明</th>
-                <th>收入</th>
+                <th scope="col">方式</th>
+                <th scope="col">说明</th>
+                <th scope="col">收入</th>
               </tr>
             </thead>
             <tbody>
@@ -666,16 +666,16 @@
       <!-- Strategy -->
       <section class="section reveal" id="strategy">
         <h2 class="section-title"><span class="icon"
-            style="background:linear-gradient(135deg,rgba(34,197,94,0.2),rgba(234,179,8,0.2))">🧠</span> 核心策略与风险</h2>
-        <h3 style="font-size:1rem;margin:0 0 .75rem">推荐策略排名</h3>
+           >🧠</span> 核心策略与风险</h2>
+        <h3>推荐策略排名</h3>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>策略</th>
-                <th>风险</th>
-                <th>回报</th>
-                <th>技术门槛</th>
+                <th scope="col">策略</th>
+                <th scope="col">风险</th>
+                <th scope="col">回报</th>
+                <th scope="col">技术门槛</th>
               </tr>
             </thead>
             <tbody>
@@ -719,13 +719,13 @@
           </table>
         </div>
         <div class="cards cards-2 mt-2">
-          <div class="card" style="border-top:3px solid var(--color-green)">
+          <div class="card">
             <div class="card-title">💡 核心建议</div>
             <div class="card-desc">
               做工具而非做苦力<br>自动化一切，手动没竞争力<br>分散风险，不依赖单一平台<br>合规优先，选资产售卖/独立开发<br>关注新赛道，早期红利最大
             </div>
           </div>
-          <div class="card" style="border-top:3px solid var(--color-red)">
+          <div class="card">
             <div class="card-title">❌ 风险提示</div>
             <div class="card-desc">
               账号封禁 — 厂商对脚本零容忍<br>法律风险 — 私服侵犯版权<br>投资风险 — P2E 代币暴跌<br>反作弊系统越来越强<br>政策变动导致套利失效
@@ -733,7 +733,7 @@
           </div>
         </div>
         <div class="tip mt-2">
-          <strong>💡 一句话总结：</strong>游戏赚钱的核心是 <strong>做工具 > 做苦力，自动化 > 手动，合规 > 灰色，新赛道 > 老赛道</strong>。
+          <strong>💡 一句话总结：</strong>游戏赚钱的核心是 <strong>做工具 &gt; 做苦力，自动化 &gt; 手动，合规 &gt; 灰色，新赛道 &gt; 老赛道</strong>。
         </div>
       </section>
 
@@ -742,7 +742,7 @@
 
   <footer class="footer">
     <p>整合自 GitHub 30+ 个仓库和 Topics · 仅供学习参考，不构成投资或法律建议</p>
-    <p style="margin-top:0.5rem">
+    <p>
       <a href="index.html">首页</a> ·
       <a href="projects.html">赚钱项目</a> ·
       <a href="legal.html">合法路子</a> ·
@@ -751,7 +751,7 @@
     </p>
   </footer>
 
-  <button class="back-top" id="backTop" onclick="window.scrollTo({top:0})">↑</button>
+  <button class="back-top" id="backTop" type="button" aria-label="回到顶部">↑</button>
   <script src="main.js"></script>
 </body>
 
