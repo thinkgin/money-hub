@@ -1,350 +1,758 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>游戏赚钱策略大全 - 程序员赚钱知识库</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>游戏赚钱策略大全 - 程序员赚钱知识库</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<nav class="nav">
-  <div class="nav-inner">
-    <a href="index.html" class="nav-logo">💰 赚钱知识库</a>
-    <button class="menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
-    <div class="nav-links">
-      <a href="index.html">首页</a>
-      <a href="projects.html">赚钱项目</a>
-      <a href="legal.html">合法路子</a>
-      <a href="games.html" class="active">游戏赚钱</a>
-      <a href="tools.html">实用工具</a>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">💰 赚钱知识库</a>
+      <button class="menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+      <div class="nav-links">
+        <a href="index.html">首页</a>
+        <a href="projects.html">赚钱项目</a>
+        <a href="legal.html">合法路子</a>
+        <a href="games.html" class="active">游戏赚钱</a>
+        <a href="tools.html">实用工具</a>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-<section class="hero">
-  <h1>🎮 游戏赚钱策略大全</h1>
-  <p>Telegram 小游戏、Steam 皮肤套利、MMORPG 打金、独立游戏开发、P2E 链游、Roblox 等全方向</p>
-  <div class="stats">
-    <div class="stat"><div class="stat-val">12</div><div class="stat-label">大分类</div></div>
-    <div class="stat"><div class="stat-val">80+</div><div class="stat-label">工具/项目</div></div>
-    <div class="stat"><div class="stat-val">30+</div><div class="stat-label">仓库来源</div></div>
-  </div>
-</section>
+  <section class="hero">
+    <h1>🎮 游戏赚钱策略大全</h1>
+    <p>Telegram 小游戏、Steam 皮肤套利、MMORPG 打金、独立游戏开发、P2E 链游、Roblox 等全方向</p>
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-val">12</div>
+        <div class="stat-label">大分类</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val">80+</div>
+        <div class="stat-label">工具/项目</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val">30+</div>
+        <div class="stat-label">仓库来源</div>
+      </div>
+    </div>
+  </section>
 
-<div class="page-layout">
-  <aside class="toc-sidebar">
-    <div class="toc-title">目录导航</div>
-    <a href="#tg">Telegram 小游戏</a>
-    <a href="#steam">Steam 皮肤套利</a>
-    <a href="#gold">MMORPG 打金</a>
-    <a href="#p2e">P2E 链游</a>
-    <a href="#bot">游戏自动化脚本</a>
-    <a href="#indie">独立游戏开发</a>
-    <a href="#asset">游戏资产售卖</a>
-    <a href="#server">私服 & 托管</a>
-    <a href="#band">带宽被动收入</a>
-    <a href="#roblox">Roblox 生态</a>
-    <a href="#strategy">核心策略</a>
-  </aside>
+  <div class="page-layout">
+    <aside class="toc-sidebar">
+      <div class="toc-title">目录导航</div>
+      <a href="#tg">Telegram 小游戏</a>
+      <a href="#steam">Steam 皮肤套利</a>
+      <a href="#gold">MMORPG 打金</a>
+      <a href="#p2e">P2E 链游</a>
+      <a href="#bot">游戏自动化脚本</a>
+      <a href="#indie">独立游戏开发</a>
+      <a href="#asset">游戏资产售卖</a>
+      <a href="#server">私服 & 托管</a>
+      <a href="#band">带宽被动收入</a>
+      <a href="#roblox">Roblox 生态</a>
+      <a href="#strategy">核心策略</a>
+    </aside>
 
-  <main class="page-main">
+    <main class="page-main">
 
-    <!-- TG -->
-    <section class="section" id="tg">
-      <h2 class="section-title"><span class="icon" style="background:linear-gradient(135deg,rgba(6,182,212,0.2),rgba(59,130,246,0.2))">📱</span> Telegram 小游戏 (Tap-to-Earn)</h2>
-      <p class="text-sm mb-2" style="color:var(--text2)">2024-2025 最火赛道，Notcoin 单项目用户破 3500 万</p>
-      <div class="flow">开发者搭建 Telegram Mini App → 用户点击赚代币 → 裂变拉人 → 社区做大
-    → 项目方发币/空投 → 上交易所 → 开发者+早期用户变现</div>
-      <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">成功案例</h3>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>项目</th><th>用户量</th><th>变现方式</th><th>状态</th></tr></thead>
-          <tbody>
-            <tr><td><strong>Notcoin ($NOT)</strong></td><td>3500 万+</td><td>代币上所，市值 $2B+</td><td>已上 Binance</td></tr>
-            <tr><td><strong>Hamster Kombat</strong></td><td>3 亿+</td><td>代币空投 $HMSTR</td><td>已上 Binance</td></tr>
-            <tr><td><strong>TapSwap</strong></td><td>6000 万+</td><td>代币空投</td><td>待上所</td></tr>
-            <tr><td><strong>DOGS</strong></td><td>5000 万+</td><td>代币 $DOGS</td><td>已上所</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">赚钱策略</h3>
-      <div class="cards cards-2">
-        <div class="card"><div class="card-title">自建游戏发币</div><div class="card-desc">搭建游戏 → 裂变 → 发代币上所（高风险高回报）</div><div class="card-footer"><span class="tag tag-red">高风险</span></div></div>
-        <div class="card"><div class="card-title">卖白标方案</div><div class="card-desc">做好模板卖给项目方，每套 $3k-$20k</div><div class="card-footer"><span class="tag tag-green">推荐</span></div></div>
-        <div class="card"><div class="card-title">代开发服务</div><div class="card-desc">帮 Web3 项目方定制 Telegram 小游戏</div><div class="card-footer"><span class="tag tag-green">推荐</span></div></div>
-        <div class="card"><div class="card-title">早期参与空投</div><div class="card-desc">用脚本批量刷多个游戏空投</div><div class="card-footer"><span class="tag tag-yellow">中风险</span></div></div>
-      </div>
-    </section>
-
-    <!-- Steam -->
-    <section class="section" id="steam">
-      <h2 class="section-title"><span class="icon" style="background:linear-gradient(135deg,rgba(99,102,241,0.2),rgba(139,92,246,0.2))">🎯</span> Steam / CS2 皮肤交易套利</h2>
-      <div class="flow">低价平台买入皮肤 (BUFF/悠悠有品) → 高价平台卖出 (Steam/CSFloat) → 赚取差价</div>
-      <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">核心工具链</h3>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>类型</th><th>工具</th><th>功能</th></tr></thead>
-          <tbody>
-            <tr><td rowspan="3"><strong>价格监控</strong></td><td><a href="https://github.com/hldh214/buff2steam" target="_blank">buff2steam</a></td><td>BUFF vs Steam 比价</td></tr>
-            <tr><td><a href="https://github.com/Soniclev/steam_csfloat_rust" target="_blank">steam_csfloat_rust</a></td><td>CSFloat ↔ Steam 监控</td></tr>
-            <tr><td><a href="https://steamdt.com/en" target="_blank">SteamDT</a></td><td>价格趋势 & 市场概览</td></tr>
-            <tr><td rowspan="3"><strong>自动交易</strong></td><td><a href="https://github.com/Steamauto/Steamauto" target="_blank">Steamauto</a></td><td>BUFF/悠悠/Steam 全自动收发货</td></tr>
-            <tr><td><a href="https://github.com/gradinazz/CSFloat-Auto-Trade" target="_blank">CSFloat-Auto-Trade</a></td><td>CSFloat 自动交易</td></tr>
-            <tr><td><a href="https://github.com/FatSquare/cs2_market_botX" target="_blank">cs2_market_botX</a></td><td>Steam 市场秒购/狙击</td></tr>
-            <tr><td rowspan="2"><strong>浏览器插件</strong></td><td><a href="https://github.com/GODrums/BetterFloat" target="_blank">BetterFloat</a></td><td>9+ 个皮肤市场增强</td></tr>
-            <tr><td><a href="https://github.com/IsThereAnyDeal/AugmentedSteam" target="_blank">Augmented Steam</a></td><td>Steam 平台全面增强</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">收入参考</h3>
-      <div class="cards cards-3">
-        <div class="card"><div class="card-title">小资金 (&lt;$500)</div><div class="card-desc">月利润 10%-20%</div></div>
-        <div class="card"><div class="card-title">中等 ($2k-$10k)</div><div class="card-desc">月利润 $200-$2000</div></div>
-        <div class="card"><div class="card-title">大资金+自动化</div><div class="card-desc">月利润 $5000+</div></div>
-      </div>
-    </section>
-
-    <!-- Gold Farming -->
-    <section class="section" id="gold">
-      <h2 class="section-title"><span class="icon" style="background:linear-gradient(135deg,rgba(234,179,8,0.2),rgba(249,115,22,0.2))">⚔️</span> MMORPG 打金</h2>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>游戏</th><th>打金方式</th><th>变现渠道</th><th>月收入</th></tr></thead>
-          <tbody>
-            <tr><td><strong>OSRS</strong></td><td>采集/打怪/Flipping</td><td>PlayerAuctions/G2G</td><td>$50-200/号</td></tr>
-            <tr><td><strong>WoW</strong></td><td>农副本/采集/AH 倒卖</td><td>G2G/淘宝</td><td>$100-500/号</td></tr>
-            <tr><td><strong>EVE Online</strong></td><td>挖矿/星际贸易</td><td>官方 PLEX</td><td>看规模</td></tr>
-            <tr><td><strong>Albion Online</strong></td><td>采集/运镖/黑市</td><td>第三方平台</td><td>中等</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">开源工具</h3>
-      <div class="cards cards-2">
-        <div class="card"><div class="card-title"><a href="https://github.com/fmorris2/orion" target="_blank">orion</a></div><div class="card-desc">OSRS 打金机器人框架，支持多号运行</div></div>
-        <div class="card"><div class="card-title"><a href="https://github.com/ruslanmv/BOT-MMORPG-AI" target="_blank">BOT-MMORPG-AI</a></div><div class="card-desc">AI 驱动的通用 MMORPG 机器人，学习操作</div></div>
-      </div>
-      <div class="flow mt-2">VPS 集群 (每台跑 5-20 客户端) → 打金脚本自动运行
-    → 金币汇总到主号 → 第三方平台出售 → 收美刀/人民币</div>
-    </section>
-
-    <!-- P2E -->
-    <section class="section" id="p2e">
-      <h2 class="section-title"><span class="icon" style="background:linear-gradient(135deg,rgba(139,92,246,0.2),rgba(236,72,153,0.2))">🎲</span> P2E 链游 & NFT 游戏</h2>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>类型</th><th>代表项目</th><th>赚钱方式</th></tr></thead>
-          <tbody>
-            <tr><td><strong>Move-to-Earn</strong></td><td>STEPN, Sweatcoin</td><td>走路赚代币</td></tr>
-            <tr><td><strong>Play-to-Earn RPG</strong></td><td>Axie Infinity, Pixels</td><td>战斗采集赚代币</td></tr>
-            <tr><td><strong>Tap-to-Earn</strong></td><td>Notcoin, Hamster</td><td>点击赚空投</td></tr>
-            <tr><td><strong>NFT 卡牌</strong></td><td>Gods Unchained</td><td>打牌赚 NFT</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="cards cards-3 mt-2">
-        <div class="card"><div class="card-title">早期参与</div><div class="card-desc">测试阶段进入 → 空投 → 代币上所后卖出</div></div>
-        <div class="card"><div class="card-title">多号批量</div><div class="card-desc">脚本管理 50-100 号同时挂机</div></div>
-        <div class="card"><div class="card-title">开发 P2E 游戏</div><div class="card-desc">自建链游，发代币变现</div></div>
-      </div>
-    </section>
-
-    <!-- Bot -->
-    <section class="section" id="bot">
-      <h2 class="section-title"><span class="icon" style="background:linear-gradient(135deg,rgba(34,197,94,0.2),rgba(6,182,212,0.2))">🤖</span> 游戏自动化脚本</h2>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>平台</th><th>技术栈</th></tr></thead>
-          <tbody>
-            <tr><td><strong>PC 端</strong></td><td>Python + OpenCV + PyAutoGUI / AHK</td></tr>
-            <tr><td><strong>安卓端</strong></td><td>AutoJS / Airtest / ADB + uiautomator2</td></tr>
-            <tr><td><strong>iOS 端</strong></td><td>越狱 + Theos / AltStore</td></tr>
-            <tr><td><strong>AI 方案</strong></td><td>YOLO 目标检测 + 强化学习</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="cards cards-2 mt-2">
-        <div class="card"><div class="card-title"><a href="https://github.com/Jinnrry/RobotHelper" target="_blank">RobotHelper</a></div><div class="card-desc">安卓游戏自动化脚本框架</div></div>
-        <div class="card"><div class="card-title"><a href="https://github.com/TonyJiangWJ/Unify-Sign" target="_blank">Unify-Sign</a></div><div class="card-desc">聚合签到/薅羊毛 AutoJS 脚本集</div></div>
-      </div>
-    </section>
-
-    <!-- Indie Game -->
-    <section class="section" id="indie">
-      <h2 class="section-title"><span class="icon" style="background:linear-gradient(135deg,rgba(249,115,22,0.2),rgba(234,179,8,0.2))">🎮</span> 独立游戏开发变现</h2>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>模式</th><th>适合平台</th><th>收入上限</th><th>难度</th></tr></thead>
-          <tbody>
-            <tr><td><strong>买断制</strong></td><td>Steam / Epic / 主机</td><td>⭐⭐⭐⭐⭐</td><td>高</td></tr>
-            <tr><td><strong>广告变现</strong></td><td>手机 iOS/Android</td><td>⭐⭐⭐</td><td>中</td></tr>
-            <tr><td><strong>内购 (IAP)</strong></td><td>手机 / Web</td><td>⭐⭐⭐⭐</td><td>中高</td></tr>
-            <tr><td><strong>DLC / 季票</strong></td><td>Steam / 主机</td><td>⭐⭐⭐⭐</td><td>中</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">引擎对比（商业化角度）</h3>
-      <div class="cards cards-4">
-        <div class="card"><div class="card-title">Unity</div><div class="card-desc">年收入 &lt;$100K 免费<br>适合手游/休闲</div></div>
-        <div class="card"><div class="card-title">Unreal</div><div class="card-desc">&gt;$1M 后抽 5%<br>适合 3A/3D 大作</div></div>
-        <div class="card"><div class="card-title">Godot</div><div class="card-desc">完全免费开源<br>适合独立/2D</div></div>
-        <div class="card"><div class="card-title">O3DE</div><div class="card-desc">完全免费开源<br>适合 3D 项目</div></div>
-      </div>
-      <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">发行平台</h3>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>平台</th><th>分成</th><th>特点</th></tr></thead>
-          <tbody>
-            <tr><td><strong>Steam</strong></td><td>30%</td><td>PC 最大，需 $100 上架费</td></tr>
-            <tr><td><strong>Epic Games Store</strong></td><td>12%</td><td>低抽成</td></tr>
-            <tr><td><strong>itch.io</strong></td><td>自定义 0-100%</td><td>独立游戏天堂，免费上架</td></tr>
-            <tr><td><strong>App Store / Google Play</strong></td><td>30% (&lt;$1M 后 15%)</td><td>手游平台</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="flow mt-2">超休闲游戏赚钱路线：
-创意验证 (1-3天原型) → CPI 测试 (Facebook 广告)
-    → CPI < $0.30 → 开发完整版 (2-4周)
-    → 接入广告 SDK → 发布 → 买量 → 广告收入 > 买量成本 = 盈利</div>
-    </section>
-
-    <!-- Asset -->
-    <section class="section" id="asset">
-      <h2 class="section-title"><span class="icon" style="background:linear-gradient(135deg,rgba(236,72,153,0.2),rgba(139,92,246,0.2))">🎨</span> 游戏资产 & 模板售卖</h2>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>平台</th><th>类型</th><th>抽成</th></tr></thead>
-          <tbody>
-            <tr><td><a href="https://assetstore.unity.com/" target="_blank"><strong>Unity Asset Store</strong></a></td><td>Unity 插件/模型</td><td>30%</td></tr>
-            <tr><td><strong>Unreal Marketplace</strong></td><td>UE 资产</td><td>12%</td></tr>
-            <tr><td><a href="https://itch.io/" target="_blank"><strong>itch.io</strong></a></td><td>游戏素材</td><td>自定义</td></tr>
-            <tr><td><a href="https://gumroad.com/" target="_blank"><strong>Gumroad</strong></a></td><td>数字产品</td><td>10%</td></tr>
-            <tr><td><strong>ArtStation Marketplace</strong></td><td>3D 模型</td><td>20%</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">什么卖得好</h3>
-      <div class="cards cards-3">
-        <div class="card"><div class="card-title">完整游戏模板</div><div class="card-desc">$30-$200 · 需求度 ⭐⭐⭐⭐⭐</div></div>
-        <div class="card"><div class="card-title">Shader/特效包</div><div class="card-desc">$15-$100 · 需求度 ⭐⭐⭐⭐⭐</div></div>
-        <div class="card"><div class="card-title">编辑器工具/插件</div><div class="card-desc">$10-$200 · 需求度 ⭐⭐⭐⭐⭐</div></div>
-        <div class="card"><div class="card-title">角色模型+动画</div><div class="card-desc">$20-$150 · 需求度 ⭐⭐⭐⭐</div></div>
-        <div class="card"><div class="card-title">UI 套件</div><div class="card-desc">$10-$50 · 需求度 ⭐⭐⭐⭐</div></div>
-        <div class="card"><div class="card-title">地形/环境包</div><div class="card-desc">$20-$100 · 需求度 ⭐⭐⭐⭐</div></div>
-      </div>
-    </section>
-
-    <!-- Server -->
-    <section class="section" id="server">
-      <h2 class="section-title"><span class="icon" style="background:linear-gradient(135deg,rgba(239,68,68,0.2),rgba(249,115,22,0.2))">🖥️</span> 私服 & 服务器托管</h2>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>游戏</th><th>项目</th><th>Stars</th></tr></thead>
-          <tbody>
-            <tr><td><strong>WoW</strong></td><td><a href="https://github.com/azerothcore/azerothcore-wotlk" target="_blank">AzerothCore</a></td><td>6k+</td></tr>
-            <tr><td><strong>WoW</strong></td><td><a href="https://github.com/TrinityCore/TrinityCore" target="_blank">TrinityCore</a></td><td>9k+</td></tr>
-            <tr><td><strong>Minecraft</strong></td><td>Paper/Spigot/Velocity</td><td>—</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="cards cards-3 mt-2">
-        <div class="card"><div class="card-title">捐赠/VIP 系统</div><div class="card-desc">玩家捐赠获得特权</div></div>
-        <div class="card"><div class="card-title">商城系统</div><div class="card-desc">卖装备/时装/道具</div></div>
-        <div class="card"><div class="card-title">代搭建服务</div><div class="card-desc">帮别人搭私服 $200-$2000</div></div>
-      </div>
-      <div class="tip-red tip mt-2"><strong>⚠️ 法律风险：</strong>私服侵犯版权，请自行评估法律风险。</div>
-    </section>
-
-    <!-- Bandwidth -->
-    <section class="section" id="band">
-      <h2 class="section-title"><span class="icon" style="background:linear-gradient(135deg,rgba(6,182,212,0.2),rgba(34,197,94,0.2))">📡</span> 带宽共享被动收入</h2>
-      <p class="text-sm mb-2" style="color:var(--text2)">游戏挂机电脑同时跑带宽共享，一份硬件双重收益</p>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>平台</th><th>月收入/IP</th></tr></thead>
-          <tbody>
-            <tr><td><strong>Honeygain</strong></td><td>$20-$50</td></tr>
-            <tr><td><strong>EarnApp</strong></td><td>$10-$30</td></tr>
-            <tr><td><strong>IPRoyal Pawns</strong></td><td>$10-$25</td></tr>
-            <tr><td><strong>GetGrass</strong></td><td>代币空投</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="tip mt-2"><strong>推荐：</strong><a href="https://github.com/MRColorR/money4band" target="_blank">money4band</a> — 一个 Docker Compose 同时跑 10+ 个平台</div>
-    </section>
-
-    <!-- Roblox -->
-    <section class="section" id="roblox">
-      <h2 class="section-title"><span class="icon" style="background:linear-gradient(135deg,rgba(99,102,241,0.2),rgba(236,72,153,0.2))">🧱</span> Roblox 生态赚钱</h2>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>方式</th><th>说明</th><th>收入</th></tr></thead>
-          <tbody>
-            <tr><td><strong>开发 Roblox 游戏</strong></td><td>Lua 脚本开发</td><td>头部年入 $1M+</td></tr>
-            <tr><td><strong>卖游戏通行证/道具</strong></td><td>游戏内卖 Robux 道具</td><td>取决热度</td></tr>
-            <tr><td><strong>UGC 创作者</strong></td><td>制作虚拟服装/饰品</td><td>每件 $1-$50+</td></tr>
-            <tr><td><strong>佣金/受雇开发</strong></td><td>帮别人做 Roblox 游戏</td><td>$500-$10k/项目</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <!-- Strategy -->
-    <section class="section" id="strategy">
-      <h2 class="section-title"><span class="icon" style="background:linear-gradient(135deg,rgba(34,197,94,0.2),rgba(234,179,8,0.2))">🧠</span> 核心策略与风险</h2>
-      <h3 style="font-size:1rem;margin:0 0 .75rem">推荐策略排名</h3>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>策略</th><th>风险</th><th>回报</th><th>技术门槛</th></tr></thead>
-          <tbody>
-            <tr><td><strong>CS2 皮肤搬砖</strong></td><td><span class="tag tag-green">低</span></td><td>中</td><td>低-中</td></tr>
-            <tr><td><strong>TG 游戏代开发</strong></td><td><span class="tag tag-green">低</span></td><td>高</td><td>中</td></tr>
-            <tr><td><strong>Unity/UE 资产售卖</strong></td><td><span class="tag tag-green">低</span></td><td>中</td><td>中</td></tr>
-            <tr><td><strong>独立游戏 (Steam)</strong></td><td><span class="tag tag-yellow">中</span></td><td>高</td><td>高</td></tr>
-            <tr><td><strong>超休闲手游+广告</strong></td><td><span class="tag tag-yellow">中</span></td><td>中-高</td><td>中</td></tr>
-            <tr><td><strong>P2E 链游空投</strong></td><td><span class="tag tag-red">高</span></td><td>高</td><td>低-中</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="cards cards-2 mt-2">
-        <div class="card" style="border-top:3px solid var(--green)">
-          <div class="card-title">💡 核心建议</div>
-          <div class="card-desc">
-            做工具而非做苦力<br>自动化一切，手动没竞争力<br>分散风险，不依赖单一平台<br>合规优先，选资产售卖/独立开发<br>关注新赛道，早期红利最大
+      <!-- TG -->
+      <section class="section" id="tg">
+        <h2 class="section-title"><span class="icon"
+            style="background:linear-gradient(135deg,rgba(6,182,212,0.2),rgba(59,130,246,0.2))">📱</span> Telegram 小游戏
+          (Tap-to-Earn)</h2>
+        <p class="text-sm mb-2" style="color:var(--text2)">2024-2025 最火赛道，Notcoin 单项目用户破 3500 万</p>
+        <div class="flow">开发者搭建 Telegram Mini App → 用户点击赚代币 → 裂变拉人 → 社区做大
+          → 项目方发币/空投 → 上交易所 → 开发者+早期用户变现</div>
+        <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">成功案例</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>项目</th>
+                <th>用户量</th>
+                <th>变现方式</th>
+                <th>状态</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Notcoin ($NOT)</strong></td>
+                <td>3500 万+</td>
+                <td>代币上所，市值 $2B+</td>
+                <td>已上 Binance</td>
+              </tr>
+              <tr>
+                <td><strong>Hamster Kombat</strong></td>
+                <td>3 亿+</td>
+                <td>代币空投 $HMSTR</td>
+                <td>已上 Binance</td>
+              </tr>
+              <tr>
+                <td><strong>TapSwap</strong></td>
+                <td>6000 万+</td>
+                <td>代币空投</td>
+                <td>待上所</td>
+              </tr>
+              <tr>
+                <td><strong>DOGS</strong></td>
+                <td>5000 万+</td>
+                <td>代币 $DOGS</td>
+                <td>已上所</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">赚钱策略</h3>
+        <div class="cards cards-2">
+          <div class="card">
+            <div class="card-title">自建游戏发币</div>
+            <div class="card-desc">搭建游戏 → 裂变 → 发代币上所（高风险高回报）</div>
+            <div class="card-footer"><span class="tag tag-red">高风险</span></div>
+          </div>
+          <div class="card">
+            <div class="card-title">卖白标方案</div>
+            <div class="card-desc">做好模板卖给项目方，每套 $3k-$20k</div>
+            <div class="card-footer"><span class="tag tag-green">推荐</span></div>
+          </div>
+          <div class="card">
+            <div class="card-title">代开发服务</div>
+            <div class="card-desc">帮 Web3 项目方定制 Telegram 小游戏</div>
+            <div class="card-footer"><span class="tag tag-green">推荐</span></div>
+          </div>
+          <div class="card">
+            <div class="card-title">早期参与空投</div>
+            <div class="card-desc">用脚本批量刷多个游戏空投</div>
+            <div class="card-footer"><span class="tag tag-yellow">中风险</span></div>
           </div>
         </div>
-        <div class="card" style="border-top:3px solid var(--red)">
-          <div class="card-title">❌ 风险提示</div>
-          <div class="card-desc">
-            账号封禁 — 厂商对脚本零容忍<br>法律风险 — 私服侵犯版权<br>投资风险 — P2E 代币暴跌<br>反作弊系统越来越强<br>政策变动导致套利失效
+      </section>
+
+      <!-- Steam -->
+      <section class="section" id="steam">
+        <h2 class="section-title"><span class="icon"
+            style="background:linear-gradient(135deg,rgba(99,102,241,0.2),rgba(139,92,246,0.2))">🎯</span> Steam / CS2
+          皮肤交易套利</h2>
+        <div class="flow">低价平台买入皮肤 (BUFF/悠悠有品) → 高价平台卖出 (Steam/CSFloat) → 赚取差价</div>
+        <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">核心工具链</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>类型</th>
+                <th>工具</th>
+                <th>功能</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="3"><strong>价格监控</strong></td>
+                <td><a href="https://github.com/hldh214/buff2steam" target="_blank">buff2steam</a></td>
+                <td>BUFF vs Steam 比价</td>
+              </tr>
+              <tr>
+                <td><a href="https://github.com/Soniclev/steam_csfloat_rust" target="_blank">steam_csfloat_rust</a></td>
+                <td>CSFloat ↔ Steam 监控</td>
+              </tr>
+              <tr>
+                <td><a href="https://steamdt.com/en" target="_blank">SteamDT</a></td>
+                <td>价格趋势 & 市场概览</td>
+              </tr>
+              <tr>
+                <td rowspan="3"><strong>自动交易</strong></td>
+                <td><a href="https://github.com/Steamauto/Steamauto" target="_blank">Steamauto</a></td>
+                <td>BUFF/悠悠/Steam 全自动收发货</td>
+              </tr>
+              <tr>
+                <td><a href="https://github.com/gradinazz/CSFloat-Auto-Trade" target="_blank">CSFloat-Auto-Trade</a>
+                </td>
+                <td>CSFloat 自动交易</td>
+              </tr>
+              <tr>
+                <td><a href="https://github.com/FatSquare/cs2_market_botX" target="_blank">cs2_market_botX</a></td>
+                <td>Steam 市场秒购/狙击</td>
+              </tr>
+              <tr>
+                <td rowspan="2"><strong>浏览器插件</strong></td>
+                <td><a href="https://github.com/GODrums/BetterFloat" target="_blank">BetterFloat</a></td>
+                <td>9+ 个皮肤市场增强</td>
+              </tr>
+              <tr>
+                <td><a href="https://github.com/IsThereAnyDeal/AugmentedSteam" target="_blank">Augmented Steam</a></td>
+                <td>Steam 平台全面增强</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">收入参考</h3>
+        <div class="cards cards-3">
+          <div class="card">
+            <div class="card-title">小资金 (&lt;$500)</div>
+            <div class="card-desc">月利润 10%-20%</div>
+          </div>
+          <div class="card">
+            <div class="card-title">中等 ($2k-$10k)</div>
+            <div class="card-desc">月利润 $200-$2000</div>
+          </div>
+          <div class="card">
+            <div class="card-title">大资金+自动化</div>
+            <div class="card-desc">月利润 $5000+</div>
           </div>
         </div>
-      </div>
-      <div class="tip mt-2">
-        <strong>💡 一句话总结：</strong>游戏赚钱的核心是 <strong>做工具 > 做苦力，自动化 > 手动，合规 > 灰色，新赛道 > 老赛道</strong>。
-      </div>
-    </section>
+      </section>
 
-  </main>
-</div>
+      <!-- Gold Farming -->
+      <section class="section" id="gold">
+        <h2 class="section-title"><span class="icon"
+            style="background:linear-gradient(135deg,rgba(234,179,8,0.2),rgba(249,115,22,0.2))">⚔️</span> MMORPG 打金</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>游戏</th>
+                <th>打金方式</th>
+                <th>变现渠道</th>
+                <th>月收入</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>OSRS</strong></td>
+                <td>采集/打怪/Flipping</td>
+                <td>PlayerAuctions/G2G</td>
+                <td>$50-200/号</td>
+              </tr>
+              <tr>
+                <td><strong>WoW</strong></td>
+                <td>农副本/采集/AH 倒卖</td>
+                <td>G2G/淘宝</td>
+                <td>$100-500/号</td>
+              </tr>
+              <tr>
+                <td><strong>EVE Online</strong></td>
+                <td>挖矿/星际贸易</td>
+                <td>官方 PLEX</td>
+                <td>看规模</td>
+              </tr>
+              <tr>
+                <td><strong>Albion Online</strong></td>
+                <td>采集/运镖/黑市</td>
+                <td>第三方平台</td>
+                <td>中等</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">开源工具</h3>
+        <div class="cards cards-2">
+          <div class="card">
+            <div class="card-title"><a href="https://github.com/fmorris2/orion" target="_blank">orion</a></div>
+            <div class="card-desc">OSRS 打金机器人框架，支持多号运行</div>
+          </div>
+          <div class="card">
+            <div class="card-title"><a href="https://github.com/ruslanmv/BOT-MMORPG-AI"
+                target="_blank">BOT-MMORPG-AI</a></div>
+            <div class="card-desc">AI 驱动的通用 MMORPG 机器人，学习操作</div>
+          </div>
+        </div>
+        <div class="flow mt-2">VPS 集群 (每台跑 5-20 客户端) → 打金脚本自动运行
+          → 金币汇总到主号 → 第三方平台出售 → 收美刀/人民币</div>
+      </section>
 
-<footer class="footer">
-  <p>整合自 GitHub 30+ 个仓库和 Topics · 仅供学习参考，不构成投资或法律建议</p>
-  <p style="margin-top:0.5rem">
-    <a href="index.html">首页</a> · <a href="projects.html">赚钱项目</a> · <a href="legal.html">合法路子</a> · <a href="tools.html">实用工具</a>
-  </p>
-</footer>
+      <!-- P2E -->
+      <section class="section" id="p2e">
+        <h2 class="section-title"><span class="icon"
+            style="background:linear-gradient(135deg,rgba(139,92,246,0.2),rgba(236,72,153,0.2))">🎲</span> P2E 链游 & NFT
+          游戏</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>类型</th>
+                <th>代表项目</th>
+                <th>赚钱方式</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Move-to-Earn</strong></td>
+                <td>STEPN, Sweatcoin</td>
+                <td>走路赚代币</td>
+              </tr>
+              <tr>
+                <td><strong>Play-to-Earn RPG</strong></td>
+                <td>Axie Infinity, Pixels</td>
+                <td>战斗采集赚代币</td>
+              </tr>
+              <tr>
+                <td><strong>Tap-to-Earn</strong></td>
+                <td>Notcoin, Hamster</td>
+                <td>点击赚空投</td>
+              </tr>
+              <tr>
+                <td><strong>NFT 卡牌</strong></td>
+                <td>Gods Unchained</td>
+                <td>打牌赚 NFT</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cards cards-3 mt-2">
+          <div class="card">
+            <div class="card-title">早期参与</div>
+            <div class="card-desc">测试阶段进入 → 空投 → 代币上所后卖出</div>
+          </div>
+          <div class="card">
+            <div class="card-title">多号批量</div>
+            <div class="card-desc">脚本管理 50-100 号同时挂机</div>
+          </div>
+          <div class="card">
+            <div class="card-title">开发 P2E 游戏</div>
+            <div class="card-desc">自建链游，发代币变现</div>
+          </div>
+        </div>
+      </section>
 
-<button class="back-top" id="backTop" onclick="window.scrollTo({top:0})">↑</button>
-<script>
-window.addEventListener('scroll', () => {
-  document.getElementById('backTop').classList.toggle('show', window.scrollY > 300);
-  const sections = document.querySelectorAll('.section[id]');
-  const links = document.querySelectorAll('.toc-sidebar a');
-  let current = '';
-  sections.forEach(s => { if (window.scrollY >= s.offsetTop - 100) current = s.id; });
-  links.forEach(l => { l.classList.toggle('active', l.getAttribute('href') === '#' + current); });
-});
-</script>
+      <!-- Bot -->
+      <section class="section" id="bot">
+        <h2 class="section-title"><span class="icon"
+            style="background:linear-gradient(135deg,rgba(34,197,94,0.2),rgba(6,182,212,0.2))">🤖</span> 游戏自动化脚本</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>平台</th>
+                <th>技术栈</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>PC 端</strong></td>
+                <td>Python + OpenCV + PyAutoGUI / AHK</td>
+              </tr>
+              <tr>
+                <td><strong>安卓端</strong></td>
+                <td>AutoJS / Airtest / ADB + uiautomator2</td>
+              </tr>
+              <tr>
+                <td><strong>iOS 端</strong></td>
+                <td>越狱 + Theos / AltStore</td>
+              </tr>
+              <tr>
+                <td><strong>AI 方案</strong></td>
+                <td>YOLO 目标检测 + 强化学习</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cards cards-2 mt-2">
+          <div class="card">
+            <div class="card-title"><a href="https://github.com/Jinnrry/RobotHelper" target="_blank">RobotHelper</a>
+            </div>
+            <div class="card-desc">安卓游戏自动化脚本框架</div>
+          </div>
+          <div class="card">
+            <div class="card-title"><a href="https://github.com/TonyJiangWJ/Unify-Sign" target="_blank">Unify-Sign</a>
+            </div>
+            <div class="card-desc">聚合签到/薅羊毛 AutoJS 脚本集</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Indie Game -->
+      <section class="section" id="indie">
+        <h2 class="section-title"><span class="icon"
+            style="background:linear-gradient(135deg,rgba(249,115,22,0.2),rgba(234,179,8,0.2))">🎮</span> 独立游戏开发变现</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>模式</th>
+                <th>适合平台</th>
+                <th>收入上限</th>
+                <th>难度</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>买断制</strong></td>
+                <td>Steam / Epic / 主机</td>
+                <td>⭐⭐⭐⭐⭐</td>
+                <td>高</td>
+              </tr>
+              <tr>
+                <td><strong>广告变现</strong></td>
+                <td>手机 iOS/Android</td>
+                <td>⭐⭐⭐</td>
+                <td>中</td>
+              </tr>
+              <tr>
+                <td><strong>内购 (IAP)</strong></td>
+                <td>手机 / Web</td>
+                <td>⭐⭐⭐⭐</td>
+                <td>中高</td>
+              </tr>
+              <tr>
+                <td><strong>DLC / 季票</strong></td>
+                <td>Steam / 主机</td>
+                <td>⭐⭐⭐⭐</td>
+                <td>中</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">引擎对比（商业化角度）</h3>
+        <div class="cards cards-4">
+          <div class="card">
+            <div class="card-title">Unity</div>
+            <div class="card-desc">年收入 &lt;$100K 免费<br>适合手游/休闲</div>
+          </div>
+          <div class="card">
+            <div class="card-title">Unreal</div>
+            <div class="card-desc">&gt;$1M 后抽 5%<br>适合 3A/3D 大作</div>
+          </div>
+          <div class="card">
+            <div class="card-title">Godot</div>
+            <div class="card-desc">完全免费开源<br>适合独立/2D</div>
+          </div>
+          <div class="card">
+            <div class="card-title">O3DE</div>
+            <div class="card-desc">完全免费开源<br>适合 3D 项目</div>
+          </div>
+        </div>
+        <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">发行平台</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>平台</th>
+                <th>分成</th>
+                <th>特点</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Steam</strong></td>
+                <td>30%</td>
+                <td>PC 最大，需 $100 上架费</td>
+              </tr>
+              <tr>
+                <td><strong>Epic Games Store</strong></td>
+                <td>12%</td>
+                <td>低抽成</td>
+              </tr>
+              <tr>
+                <td><strong>itch.io</strong></td>
+                <td>自定义 0-100%</td>
+                <td>独立游戏天堂，免费上架</td>
+              </tr>
+              <tr>
+                <td><strong>App Store / Google Play</strong></td>
+                <td>30% (&lt;$1M 后 15%)</td>
+                <td>手游平台</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="flow mt-2">超休闲游戏赚钱路线：
+          创意验证 (1-3天原型) → CPI 测试 (Facebook 广告)
+          → CPI < $0.30 → 开发完整版 (2-4周) → 接入广告 SDK → 发布 → 买量 → 广告收入> 买量成本 = 盈利</div>
+      </section>
+
+      <!-- Asset -->
+      <section class="section" id="asset">
+        <h2 class="section-title"><span class="icon"
+            style="background:linear-gradient(135deg,rgba(236,72,153,0.2),rgba(139,92,246,0.2))">🎨</span> 游戏资产 & 模板售卖
+        </h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>平台</th>
+                <th>类型</th>
+                <th>抽成</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="https://assetstore.unity.com/" target="_blank"><strong>Unity Asset Store</strong></a></td>
+                <td>Unity 插件/模型</td>
+                <td>30%</td>
+              </tr>
+              <tr>
+                <td><strong>Unreal Marketplace</strong></td>
+                <td>UE 资产</td>
+                <td>12%</td>
+              </tr>
+              <tr>
+                <td><a href="https://itch.io/" target="_blank"><strong>itch.io</strong></a></td>
+                <td>游戏素材</td>
+                <td>自定义</td>
+              </tr>
+              <tr>
+                <td><a href="https://gumroad.com/" target="_blank"><strong>Gumroad</strong></a></td>
+                <td>数字产品</td>
+                <td>10%</td>
+              </tr>
+              <tr>
+                <td><strong>ArtStation Marketplace</strong></td>
+                <td>3D 模型</td>
+                <td>20%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 style="font-size:1rem;margin:1.5rem 0 .75rem">什么卖得好</h3>
+        <div class="cards cards-3">
+          <div class="card">
+            <div class="card-title">完整游戏模板</div>
+            <div class="card-desc">$30-$200 · 需求度 ⭐⭐⭐⭐⭐</div>
+          </div>
+          <div class="card">
+            <div class="card-title">Shader/特效包</div>
+            <div class="card-desc">$15-$100 · 需求度 ⭐⭐⭐⭐⭐</div>
+          </div>
+          <div class="card">
+            <div class="card-title">编辑器工具/插件</div>
+            <div class="card-desc">$10-$200 · 需求度 ⭐⭐⭐⭐⭐</div>
+          </div>
+          <div class="card">
+            <div class="card-title">角色模型+动画</div>
+            <div class="card-desc">$20-$150 · 需求度 ⭐⭐⭐⭐</div>
+          </div>
+          <div class="card">
+            <div class="card-title">UI 套件</div>
+            <div class="card-desc">$10-$50 · 需求度 ⭐⭐⭐⭐</div>
+          </div>
+          <div class="card">
+            <div class="card-title">地形/环境包</div>
+            <div class="card-desc">$20-$100 · 需求度 ⭐⭐⭐⭐</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Server -->
+      <section class="section" id="server">
+        <h2 class="section-title"><span class="icon"
+            style="background:linear-gradient(135deg,rgba(239,68,68,0.2),rgba(249,115,22,0.2))">🖥️</span> 私服 & 服务器托管
+        </h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>游戏</th>
+                <th>项目</th>
+                <th>Stars</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>WoW</strong></td>
+                <td><a href="https://github.com/azerothcore/azerothcore-wotlk" target="_blank">AzerothCore</a></td>
+                <td>6k+</td>
+              </tr>
+              <tr>
+                <td><strong>WoW</strong></td>
+                <td><a href="https://github.com/TrinityCore/TrinityCore" target="_blank">TrinityCore</a></td>
+                <td>9k+</td>
+              </tr>
+              <tr>
+                <td><strong>Minecraft</strong></td>
+                <td>Paper/Spigot/Velocity</td>
+                <td>—</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cards cards-3 mt-2">
+          <div class="card">
+            <div class="card-title">捐赠/VIP 系统</div>
+            <div class="card-desc">玩家捐赠获得特权</div>
+          </div>
+          <div class="card">
+            <div class="card-title">商城系统</div>
+            <div class="card-desc">卖装备/时装/道具</div>
+          </div>
+          <div class="card">
+            <div class="card-title">代搭建服务</div>
+            <div class="card-desc">帮别人搭私服 $200-$2000</div>
+          </div>
+        </div>
+        <div class="tip-red tip mt-2"><strong>⚠️ 法律风险：</strong>私服侵犯版权，请自行评估法律风险。</div>
+      </section>
+
+      <!-- Bandwidth -->
+      <section class="section" id="band">
+        <h2 class="section-title"><span class="icon"
+            style="background:linear-gradient(135deg,rgba(6,182,212,0.2),rgba(34,197,94,0.2))">📡</span> 带宽共享被动收入</h2>
+        <p class="text-sm mb-2" style="color:var(--text2)">游戏挂机电脑同时跑带宽共享，一份硬件双重收益</p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>平台</th>
+                <th>月收入/IP</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Honeygain</strong></td>
+                <td>$20-$50</td>
+              </tr>
+              <tr>
+                <td><strong>EarnApp</strong></td>
+                <td>$10-$30</td>
+              </tr>
+              <tr>
+                <td><strong>IPRoyal Pawns</strong></td>
+                <td>$10-$25</td>
+              </tr>
+              <tr>
+                <td><strong>GetGrass</strong></td>
+                <td>代币空投</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="tip mt-2"><strong>推荐：</strong><a href="https://github.com/MRColorR/money4band"
+            target="_blank">money4band</a> — 一个 Docker Compose 同时跑 10+ 个平台</div>
+      </section>
+
+      <!-- Roblox -->
+      <section class="section" id="roblox">
+        <h2 class="section-title"><span class="icon"
+            style="background:linear-gradient(135deg,rgba(99,102,241,0.2),rgba(236,72,153,0.2))">🧱</span> Roblox 生态赚钱
+        </h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>方式</th>
+                <th>说明</th>
+                <th>收入</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>开发 Roblox 游戏</strong></td>
+                <td>Lua 脚本开发</td>
+                <td>头部年入 $1M+</td>
+              </tr>
+              <tr>
+                <td><strong>卖游戏通行证/道具</strong></td>
+                <td>游戏内卖 Robux 道具</td>
+                <td>取决热度</td>
+              </tr>
+              <tr>
+                <td><strong>UGC 创作者</strong></td>
+                <td>制作虚拟服装/饰品</td>
+                <td>每件 $1-$50+</td>
+              </tr>
+              <tr>
+                <td><strong>佣金/受雇开发</strong></td>
+                <td>帮别人做 Roblox 游戏</td>
+                <td>$500-$10k/项目</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Strategy -->
+      <section class="section" id="strategy">
+        <h2 class="section-title"><span class="icon"
+            style="background:linear-gradient(135deg,rgba(34,197,94,0.2),rgba(234,179,8,0.2))">🧠</span> 核心策略与风险</h2>
+        <h3 style="font-size:1rem;margin:0 0 .75rem">推荐策略排名</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>策略</th>
+                <th>风险</th>
+                <th>回报</th>
+                <th>技术门槛</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>CS2 皮肤搬砖</strong></td>
+                <td><span class="tag tag-green">低</span></td>
+                <td>中</td>
+                <td>低-中</td>
+              </tr>
+              <tr>
+                <td><strong>TG 游戏代开发</strong></td>
+                <td><span class="tag tag-green">低</span></td>
+                <td>高</td>
+                <td>中</td>
+              </tr>
+              <tr>
+                <td><strong>Unity/UE 资产售卖</strong></td>
+                <td><span class="tag tag-green">低</span></td>
+                <td>中</td>
+                <td>中</td>
+              </tr>
+              <tr>
+                <td><strong>独立游戏 (Steam)</strong></td>
+                <td><span class="tag tag-yellow">中</span></td>
+                <td>高</td>
+                <td>高</td>
+              </tr>
+              <tr>
+                <td><strong>超休闲手游+广告</strong></td>
+                <td><span class="tag tag-yellow">中</span></td>
+                <td>中-高</td>
+                <td>中</td>
+              </tr>
+              <tr>
+                <td><strong>P2E 链游空投</strong></td>
+                <td><span class="tag tag-red">高</span></td>
+                <td>高</td>
+                <td>低-中</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cards cards-2 mt-2">
+          <div class="card" style="border-top:3px solid var(--green)">
+            <div class="card-title">💡 核心建议</div>
+            <div class="card-desc">
+              做工具而非做苦力<br>自动化一切，手动没竞争力<br>分散风险，不依赖单一平台<br>合规优先，选资产售卖/独立开发<br>关注新赛道，早期红利最大
+            </div>
+          </div>
+          <div class="card" style="border-top:3px solid var(--red)">
+            <div class="card-title">❌ 风险提示</div>
+            <div class="card-desc">
+              账号封禁 — 厂商对脚本零容忍<br>法律风险 — 私服侵犯版权<br>投资风险 — P2E 代币暴跌<br>反作弊系统越来越强<br>政策变动导致套利失效
+            </div>
+          </div>
+        </div>
+        <div class="tip mt-2">
+          <strong>💡 一句话总结：</strong>游戏赚钱的核心是 <strong>做工具 > 做苦力，自动化 > 手动，合规 > 灰色，新赛道 > 老赛道</strong>。
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <footer class="footer">
+    <p>整合自 GitHub 30+ 个仓库和 Topics · 仅供学习参考，不构成投资或法律建议</p>
+    <p style="margin-top:0.5rem">
+      <a href="index.html">首页</a> ·
+      <a href="projects.html">赚钱项目</a> ·
+      <a href="legal.html">合法路子</a> ·
+      <a href="games.html">游戏赚钱</a> ·
+      <a href="tools.html">实用工具</a>
+    </p>
+  </footer>
+
+  <button class="back-top" id="backTop" onclick="window.scrollTo({top:0})">↑</button>
+  <script src="main.js"></script>
 </body>
+
 </html>
